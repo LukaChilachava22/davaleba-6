@@ -168,14 +168,14 @@
 	position: relative;
 }
 
-.bigphoto1 {
+#bigphoto1 {
 	width: 758px;
 	height: 430px;
 	border-radius: 5px;
 	position: absolute;
 }
 
-.bigphoto2 {
+#bigphoto2 {
 	width: 758px;
 	height: 430px;
 	border-radius: 5px;
@@ -194,7 +194,7 @@
 
 
 
-.forest {
+#forest {
 	margin-left: 800px;
 	width: 362px;
 	height: 212px;
@@ -202,7 +202,7 @@
 }
 
 
-.spilo {
+#spilo {
 	margin-left: 800px;
 	margin-top: 98px;
 	width: 362px;
@@ -212,7 +212,7 @@
 
 
 
-.building {
+#building {
 	margin-left: 800px;
 	margin-top: 103px;
 	width: 362px;
