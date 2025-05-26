@@ -1,7 +1,350 @@
-*{
-	margin:0;
-	padding:0;
+* {
+	padding: 0px;
+	margin: 0px;
 }
-body {
-	padding-left:138px;
+
+
+#home {
+	display: inline-block;
+	margin-left: 137px;
+	margin-top: 21px;
+	font-family: Roboto;
+	font-weight: 700;
+	margin-bottom: 42px;
+}
+
+
+#discovery {
+	display: inline-block;
+	margin-left: 35px;
+	margin-top: 21px;
+	font-family: Roboto;
+	font-weight: 700;
+}
+
+
+#photos {
+	display: inline-block;
+	margin-left: 35px;
+	margin-top: 21px;
+	font-family: Roboto;
+	font-weight: 700;
+}
+
+
+#contact {
+	display: inline-block;
+	margin-left: 35px;
+	margin-top: 21px;
+	font-family: Roboto;
+	font-weight: 700;
+}
+
+
+#trading {
+	font-family: Roboto;
+	font-weight: 700;
+	margin-left: 137px;
+	margin-bottom: 27px;
+}
+
+
+.card {
+	display: inline-block;
+	margin: 30px;
+	width: 362px;
+	height: 357px;
+	background-color: #FFFFFF;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	position: relative;
+	margin-left: 137px;
+	margin-bottom: 57px;
+}
+
+
+#foto1 {
+	width: 362px;
+	height: 186px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+
+.text {
+	padding-top: 68px;
+	padding-left: 37px;
+}
+
+.text > p {
+	font-family: Roboto;
+	font-weight: 700;
+	font-size: 10px;
+	color: #8A8787;
+	margin-bottom: 8px;
+}
+
+
+#clock {
+	width: 18px;
+	padding-left: 4px;
+}
+
+#time {
+	color: #8A8787;
+	font-family: Roboto;
+	font-weight: 700;
+	font-size: 10px;
+	vertical-align: text-top;
+}
+
+
+#abs {
+	position: absolute;
+	top: 32px;
+	left: 41px;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+
+#text2 {
+	font-family: Roboto;
+	font-weight: 900;
+	font-size: 28px;
+	margin-left: 137px;
+	margin-bottom: 30px;
+}
+
+
+.photos > p {
+	font-size: 20px;
+	font-weight: 700;
+	position: absolute;
+	color: #FFFFFF;
+	z-index: 1;
+	margin-top: 203px;
+	margin-left: 278px;
+}
+
+
+.photos {
+	height: 902px;
+	width: 758px;
+	margin-left: 138px;
+	margin-top: 30px;
+	display: inline-block;
+	position: relative;
+}
+
+
+.largephotodiv > h3 {
+	font-size: 20px;
+	font-weight: 700;
+	position: absolute;
+	font-family: "Roboto";
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    color: #FFFFFF;
+    z-index: 1;
+    margin-top: 203px;
+    margin-left: 278px;
+}
+
+
+
+
+.largephotodiv {
+	height: 902px;
+	width: 758;
+	margin-left: 138px;
+	margin-top: 30px;
+	display: inline-block;
+	position: relative;
+}
+
+.bigphoto1 {
+	width: 758px;
+	height: 430px;
+	border-radius: 5px;
+	position: absolute;
+}
+
+.bigphoto2 {
+	width: 758px;
+	height: 430px;
+	border-radius: 5px;
+	position: absolute;
+	margin-top: 472px;
+}
+
+
+
+
+
+
+ /* Small photos */
+
+
+
+
+
+.forest {
+	margin-left: 800px;
+	width: 362px;
+	height: 212px;
+	border-radius: 5px;
+}
+
+
+.spilo {
+	margin-left: 800px;
+	margin-top: 98px;
+	width: 362px;
+	height: 212px;
+	border-radius: 5px;
+}
+
+
+
+.building {
+	margin-left: 800px;
+	margin-top: 103px;
+	width: 362px;
+	height: 212px;
+	border-radius: 5px;
+}
+
+
+footer {
+	background-color: #243043;
+	height: 201px;
+	margin-top: 36px;
+	position: relative;
+}
+
+
+
+.fotext1 {
+	width: 54px;
+	height: 100px;
+	position: absolute;
+	margin-left: 137px;
+	margin-top: 59px;
+}
+
+
+
+.fotext1 > h3 {
+	color: #818687;
+	font-weight: 700;
+ 	font-size: 12px;
+ 	font-family: "Roboto";
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    display: inline-block;
+    margin-bottom: 14px;
+}
+
+
+.fotext2 {
+	width: 54px;
+	height: 100px;
+	position: absolute;
+	margin-left: 266px;
+	margin-top: 59px;
+}
+
+
+
+.fotext2 > h3 {
+	color: #818687;
+	font-weight: 700;
+ 	font-size: 12px;
+ 	font-family: "Roboto";
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    display: inline-block;
+    margin-bottom: 14px;
+}
+
+
+.fotext3 {
+	width: 54px;
+	height: 100px;
+	position: absolute;
+	margin-left: 417px;
+	margin-top: 59px;
+}
+
+
+
+.fotext3 > h3 {
+	color: #818687;
+	font-weight: 700;
+ 	font-size: 12px;
+ 	font-family: "Roboto";
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    display: inline-block;
+    margin-bottom: 14px;
+}
+
+
+
+.fotext4 {
+	width: 249px;
+	height: 100px;
+	position: absolute;
+	margin-left: 599px;
+	margin-top: 59px;
+}
+
+
+
+.fotext4 > h3 {
+	color: #FFFFFF;
+	font-weight: 400;
+ 	font-size: 12px;
+ 	font-family: "Roboto";
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    display: inline-block;
+    margin-bottom: 14px;
+}
+
+
+
+.geolab {
+	width: 249px;
+	height: 100px;
+	position: absolute;
+	margin-left: 1264px;
+	margin-top: 59px;
+}
+
+
+
+.geolab > img {
+	width: 38px;
+	height: 40px;
+    display: inline-block;
+    margin-bottom: 14px;
 }
